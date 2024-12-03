@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        /* Replace with your image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+      }
+      .vdo {
+        border: 2px solid #bbb;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgb(187, 184, 0), 0 0 10px rgb(131, 187, 0),
+          0 0 15px rgb(187, 0, 0), 0 0 20px rgb(187, 146, 0), 0 0 25px #0b0,
+          0 0 30px rgb(137, 0, 187);
+        object-fit: cover;
+        width: 50%;
+      }
+      .audi {
+        margin-bottom: 40px;
+        width: 50%;
+        box-shadow: 0 0 5px rgb(187, 184, 0), 0 0 10px rgb(131, 187, 0),
+          0 0 15px rgb(187, 0, 0), 0 0 20px rgb(187, 146, 0), 0 0 25px #0b0,
+          0 0 30px rgb(137, 0, 187);
+        border-radius: 30px;
+        margin-top: 100px;
+        flex-wrap: wrap;
+      }
+      h1 {
+        color: white;
+        text-decoration: underline;
+        text-shadow: 0 0 15px rgb(9, 0, 187), 0 0 20px rgb(174, 0, 187),
+          0 0 25px rgb(187, 100, 0), 0 0 30px rgb(137, 0, 187);
+        margin-bottom: 5px;
+      }
+    </style>
+    <h1>Hello Guy this is how to use CSS.</h1>
+    <main class="container">
+      <audio controls class="audi">
+        <source src="pasilyo.mp3" type="audio/mpeg" />
+      </audio>
+
+      <video width="640" height="360" controls class="vdo">
+        <source src="vdo.mp4" type="video/mp4" />
+      </video>
+    </main>
+  </body>
+</html>
